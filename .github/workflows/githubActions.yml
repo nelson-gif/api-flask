@@ -1,0 +1,12 @@
+name: Rest-api with flask
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: making checkout
+        uses: actions/checkout@v4
