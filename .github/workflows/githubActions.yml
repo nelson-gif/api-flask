@@ -22,5 +22,11 @@ jobs:
       - name: installing flask
         run: pip install Flask
 
+      - name: installing sqlalchemy
+        run: pip3 install flask_sqlalchemy
+
+      - name: installing mysql connector
+        run: pip3 install mysql-connector-python
+
       - name: running tests
         run: pytest test_app.py
